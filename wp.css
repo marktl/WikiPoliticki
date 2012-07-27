@@ -1,0 +1,135 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	margin-left: auto;
+	margin-right: auto;
+	width:1024px;	
+	font:Arial, Helvetica, sans-serif;
+	}
+.rs-off{
+	display:none;
+	}
+.rs-on{
+	display:block;
+	}
+h4 {
+	display:inline;
+	}
+span#top{
+float:right;
+}		
+span#count{
+float:left;
+}
+div#dtop{
+display:block;
+}
+div#countyselect {
+	display:inline;
+	}	
+div#cityselect {
+	display:inline;
+	}		
+img.floatLeft { 
+    float: left; 
+    margin: 4px; 
+}	
+div#edirectory{
+	height:200px;
+	display:block;
+	}
+.fb-comments{
+	display:block;
+	margin-top:-20px;
+	}	
+div#add{
+	text-align:center;
+	margin-left: auto;
+	margin-right: auto;
+	}	
+form#addoffice	{
+position:absolute;
+top:82px;
+right:30%;
+}
+div#rsstate{
+	margin-left:30px;
+	}
+div#rscongress{
+	margin-left:30px;
+	}
+div#rscounty{
+	margin-left:30px;
+	}
+div#rscity{
+	margin-left:30px;
+	}
+.wd-expando {
+  border: 1px solid #e9e9e9;
+  margin: 0 0 2em 0;
+}
+.wd-expando h2 {
+  border-bottom: 1px solid #e9e9e9;
+  background: #f9f9f9;
+  padding: 3px;
+  margin: 0;
+}
+.wd-expando-on h2,
+.wd-expando-off h2 {
+  cursor: pointer;
+  padding-left: 18px;
+  background: #f9f9f9 url(images/minus.png) no-repeat left center;
+}
+.wd-expando-off span {
+  display: none;
+}
+.wd-expando-off h2 {
+  background-image: url(images/plus.png);
+}
+.news {
+  margin: 0 0 2em 0;
+}
+.news h5 {
+  padding: 3px;
+  margin: 0;
+}
+.news-on h5,
+.news-off h5 {
+  cursor: pointer;
+  padding-left: 18px;
+  background: url(images/minus.png) no-repeat left center;
+}
+.news-off span {
+  display: none;
+}
+.news-off h5 {
+  background-image: url(images/plus.png);
+}
+div#add label.error 
+{
+ float: none; color: red; padding-left: .5em; vertical-align: top; 
+}
+.fb_edge_comment_widget {
+  display: none !important;
+}
+.wikilike{
+	top:40px;
+	right:75px;
+	position:absolute;
+}
+.tableadd{
+margin-left: auto;
+	margin-right: auto;
+}
+div#addmore{
+	margin-left: auto;
+	margin-right: auto;
+	width:600px;	
+}
+div#addmoreedirectory{
+padding-left:200px;
+}
+span#weblink img{
+height:28px;
+vertical-align:middle;
+}
